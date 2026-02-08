@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Giới thiệu bản thân | Creative</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin:0;
+            font-family:'Montserrat', sans-serif;
+            background: linear-gradient(120deg,#1d2671,#c33764);
+            color:#fff;
+        }
+
+        header{
+            text-align:center;
+            padding:80px 20px 50px;
+        }
+
+        .avatar{
+            width:160px;
+            height:160px;
+            border-radius:50%;
+            border:5px solid #fff;
+            object-fit:cover;
+            box-shadow:0 0 30px rgba(0,0,0,0.5);
+        }
+
+        header h1{
+            margin:20px 0 10px;
+            font-size:44px;
+        }
+
+        header p{
+            font-size:18px;
+            opacity:0.9;
+        }
+
+        audio{
+            margin-top:20px;
+            width:300px;
+        }
+
+        section{
+            max-width:1000px;
+            margin:auto;
+            padding:60px 20px;
+        }
+
+        h2{
+            text-align:center;
+            font-size:36px;
+            margin-bottom:50px;
+        }
+
+        /* CARD */
+        .cards{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+            gap:30px;
+        }
+
+        .card{
+            background:rgba(255,255,255,0.15);
+            padding:20px;
+            border-radius:25px;
+            backdrop-filter:blur(10px);
+            transition:0.4s;
+        }
+
+        .card:hover{
+            transform:translateY(-15px);
+            background:rgba(255,255,255,0.25);
+        }
+
+        .card h3{
+            margin-bottom:15px;
+            font-size:22px;
+        }
+
+        .card p{
+            line-height:1.7;
+        }
+
+        /* TIMELINE */
+        .timeline{
+            position:relative;
+            padding-left:30px;
+        }
+
+        .timeline::before{
+            content:"";
+            position:absolute;
+            left:5px;
+            top:0;
+            bottom:0;
+            width:4px;
+            background:#fff;
+            border-radius:10px;
+        }
+
+        .time-item{
+            margin-bottom:40px;
+            position:relative;
+        }
+
+        .time-item::before{
+            content:"";
+            position:absolute;
+            left:-30px;
+            top:5px;
+            width:18px;
+            height:18px;
+            background:#fff;
+            border-radius:50%;
+        }
+
+        footer{
+            text-align:center;
+            padding:30px;
+            background:rgba(0,0,0,0.2);
+            font-size:14px;
+            opacity:0.85;
+        }
+
+        @media(max-width:600px){
+            header h1{
+                font-size:32px;
+            }
+        }
+.vid{
+width:100%;
+height:50vh;
+object-fit:cover;
+}
+.container{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+align-items:start;
+}
+
+.box{
+  background: rgba(255,255,255,0.15);
+  padding: 20px;
+  border-radius: 15px;
+  color: white;
+  text-align:left;
+
+}.video-box {
+    max-width: 800px;   /* chỉnh độ rộng theo bài */
+    margin: 30px auto;
+}
+
+.video-box video {
+    width: 100%;
+    height: auto;       /* giữ tỉ lệ gốc */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+    </style>
+</head>
+
+<body>
+
+<header>
+    <img src="khoi.jpg" class="avatar">
+    <h1>Nguyễn Huỳnh Gia Khôi</h1>
+    <p>Sáng tạo – Học hỏi – Không ngừng phát triển</p>
+
+    <audio controls>
+        <source src="khoi.mp3" type="audio/mpeg">
+    </audio>
+</header>
+
+<section>
+    <h2>Giới thiệu</h2>
+  <div class="container">
+  <div class="box">
+             <h2>👤 Tôi là ai?</h2>
+            <p>
+                
+        <p><b>Họ và tên:</b> Nguyễn Huỳnh Gia Khôi</p><br>
+        <p><b>Ngày sinh:</b> 07/07/2008</p><br>
+        <p><b>Lớp:</b> 12A1</p><br>
+        <p><b>Trường:</b> THPT Tây Sơn </p><br></div>
+  <div class="box">
+<h2>Tính cách</h2>
+        <p><b><i>Tính cách: </i></b>Vui vẻ, hòa đồng, chăm chỉ </p<br>
+     <p><b><i>Quan điểm sống: 
+           </b></i>“Đời thay đổi khi ta thôi đẩy”</p><br>
+<h3>Học vấn, kinh nghiệm : </h3>
+     <p><b><i>
+-Thành tích học tập: 
+     </b></i><Giải ba HSG môn Ngữ Văn cấp tỉnh lớp 12 năm 2024. Học sinh xuất sắc năm học 2023-2024, học sinh Ba tốt năm học 2024-2025. </p><br>
+
+     <p><b><i>
+- Kinh nghiệm: 
+     </b></i> từng tham gia các hoạt động tình nguyện, công tác đoàn, cuộc thi: tiếp sức mùa thi 2024, tài năng MC 2025.</p><br>
+ </p>
+        </div>
+
+   
+  <div class="box">
+          <h2>🎯📌Mục tiêu </h2>
+           <div> <h3>Mục tiêu học tập:</h3> <p>Tốt nghiệp THPT, đỗ vào trường Đại học mơ ước, phát triển năng lực và hiểu biết cá nhân 😍.</p></div>
+          <div>  <h3>Định hướng nghề nghiệp: </h3><p>Luật sư.</p></div>
+           <div> <h3>Ước mơ: </h3> <p>Thành nhân, thành tài, thành danh</p></div>
+        </div>
+
+        <div class="box">
+            <h2>❤️ Sở thích</h2>
+            <p>
+                <p><b><i>
+- Thể thao: 
+     </b></i> Bóng chuyền </p>
+
+     <p><b><i>
+- Âm nhạc: 
+     </b></i> Rolling in the Deep (Adele), Cruel Summer ( Taylor Swift)</p>
+
+     <p><b><i>
+- Du lịch: 
+     </b></i>Đà Nẵng, Đà Lạt</p>
+
+     <p><b><i>
+- Sách: 
+     </b></i>Trước bình minh luôn là đêm tối ( Tạ Mình Tuấn), Thương được cứ thương đi ( Lê Hồng Hải), Không diệt không sinh đừng sợ hãi ( Thiền sư Thích Nhất Hạnh), Tuổi trẻ đáng giá bao nhiêu ( Roise Nguyễn) </p>
+
+     <p><b><i>
+- Những điều làm lúc rảnh: 
+     </b></i> chơi điện tử, lướt mạng, đọc sách, nghe nhạc. </p>
+
+            </p>
+        </div>
+    </div>
+<div class="video-box">
+<h3>Video yêu thích của em</h3>
+    <video controls>
+        <source src="khoi1.mp4" type="video/mp4">
+        Trình duyệt của bạn không hỗ trợ video.
+    </video>
+</div>
+</section>
+
+
+<footer>
+    © 2026 | Trang cá nhân của Nguyễn Huỳnh Gia Khôi 
+</footer>
+
+</body>
+</html>
